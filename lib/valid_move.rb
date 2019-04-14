@@ -3,8 +3,11 @@
 board = ["X"," "," "," "," "," "," "," "," "]
 
 def position_taken?(board, index)
-  if board[index] == "X" || board[index] == "O"
-    puts valid_move?
+  if board[index] != " "
+   valid_move?
+   true
+  else
+    puts "invalid selection"
   end
 end
 
