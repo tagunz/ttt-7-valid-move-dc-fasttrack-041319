@@ -6,12 +6,10 @@ board = ["X"," "," "," "," "," "," "," "," "]
 
 # code your #valid_move? method here
 def valid_move?(board, index)
-  if position_between?(0 8)
+  if [0] >= position_between =< [8]
    print "this block is already filled"
-   true
   else
-    print "invalid selection"
-    return false
+   print "invalid selection"
   end
 end  
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
